@@ -7,15 +7,7 @@ int main()
 {
 	bool Pocket[52] = {false};
 	int PickCount = 52;
-
 	int Select = 0;
-
-	for (int i = 0; i < 52; i++)
-	{
-		Pocket[i] = false;
-
-	}
-
 
 	while(PickCount !=0)
 	{
@@ -28,8 +20,7 @@ int main()
 			cout << Select+1 << "¹ø°ø" << endl;
 			PickCount--;
 		}
-
 	}
-	
+
 	return 0;
 }
